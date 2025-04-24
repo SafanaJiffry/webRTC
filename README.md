@@ -1,5 +1,5 @@
- Real-Time Video Conferencing Application with WebRTC  
- WebRTC Video Chat with Messaging
+REAL-TIME VIDEO CONFERENCING APPLICATION WITH WEBRTC  
+WebRTC Video Chat with Messaging
 
 This project is a WebRTC-based video chat application
 that allows users to connect in real-time using video and audio. It also includes text messaging functionality in a shared room environment.
