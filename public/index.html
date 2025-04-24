@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Jam WebRTC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div id="top-bar">
+        <h1>🎵 Music Jam Video Chat</h1>
+    </div>
+
+    <!-- Main Area -->
+    <div id="main">
+        <!-- Video Section -->
+        <div id="video-grid">
+            <video id="localVideo" autoplay muted playsinline></video>
+            <!-- Remote videos will be appended here -->
+        </div>
+
+        <!-- Chat Panel -->
+        <div id="chat-panel">
+            <h2>Chat</h2>
+            <div id="chat-box"></div>
+            <input type="text" id="messageInput" placeholder="Type a message..." />
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <div id="controls">
+        <button class="control-btn" id="muteBtn">Mute</button>
+        <button class="control-btn" id="cameraBtn">Camera Off</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
